@@ -7,7 +7,7 @@ admin = Admin()
 from .web import web
 
 
-def register_blue_print(app: Flask):
+def register_blue_print(app):
     app.register_blueprint(web)
 
 
